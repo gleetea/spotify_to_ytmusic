@@ -1,28 +1,26 @@
-GET /api/stats/watchtime?ns=yt&el=detailpage&cpn=0JSq1w1enryC704E&ver=2&cmt=11.464&fmt=243&fs=0&rt=14.012&euri&lact=3983&cl=733552769&state=playing&volume=100&cbr=Firefox&cbrver=137.0&c=WEB_REMIX&cver=1.20250305.01.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&hl=en_US&cr=US&uga=f28&len=139.621&rtn=24&feature=BFa&afmt=251&idpj=-9&ldpj=-37&rti=14&st=1.431&et=11.464&muted=0&vis=10&docid=YUt8Qf0NRWY&ei=KjrKZ738DY65kucPls3OiQ0&plid=AAYvtX4IQCrNBuj8&referrer=https%3A%2F%2Fmusic.youtube.com%2F&list=OLAK5uy_mCKwALxd2PRfZot7fQoOydIhOiegC3Z3M&of=k5kbXsTcLAyXeW7PKKMcdQ&vm=CAMQARgBOjJBSHFpSlRLLS1CU0cxQ3RMSkdLczJkTVhmd3dnS3pxRmJJQzFBSGhVUFF6bDYwUFlHZ2JcQUZVQTZSVGE4OUk3NUNlVUhrczdqbklyNGxfSzJSZ2NZOVV0V1ZZUm5zRVlPNTBZYkxfM3hUMUV5bVo5MWU1NUdSRFhFWE9VLVN1MWVtOXpHbE5WaFQ3dExacGq4AQE HTTP/3
+POST /youtubei/v1/browse?prettyPrint=false HTTP/2
 Host: music.youtube.com
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0
 Accept: */*
 Accept-Language: en-US,en;q=0.8,zh;q=0.6,zh-CN;q=0.4,ko-KR;q=0.2
 Accept-Encoding: gzip, deflate, br, zstd
-Referer: https://music.youtube.com/watch?v=YUt8Qf0NRWY&list=OLAK5uy_mCKwALxd2PRfZot7fQoOydIhOiegC3Z3M
-X-Goog-Visitor-Id: CgtISkloMS1jUE5IRSim9Ki-BjIKCgJVUxIEGgAgTw%3D%3D
+Content-Type: application/json
+Content-Length: 3045
+Referer: https://music.youtube.com/explore
+X-Goog-Visitor-Id: CgtISkloMS1jUE5IRSiEgqm-BjIKCgJVUxIEGgAgTw%3D%3D
+X-Youtube-Bootstrap-Logged-In: true
+X-Youtube-Client-Name: 67
+X-Youtube-Client-Version: 1.20250305.01.00
 X-Goog-AuthUser: 0
-X-Goog-Event-Time: 1741306424010
-X-Goog-Request-Time: 1741306424010
-X-YouTube-Client-Name: 67
-X-YouTube-Client-Version: 1.20250305.01.00
-X-YouTube-Device: cbr=Firefox&cbrver=137.0&ceng=Gecko&cengver=137.0&cos=Windows&cosver=10.0&cplatform=DESKTOP
-X-Youtube-Identity-Token: QUFFLUhqbmg0WFJoQnlPV0hrS29RVkU2YzVpZ3RhRVlNd3w=
-X-YouTube-Page-CL: 733651326
-X-YouTube-Page-Label: youtube.music.web.client_20250305_01_RC00
-X-YouTube-Utc-Offset: -300
-X-YouTube-Time-Zone: America/New_York
-X-YouTube-Ad-Signals: dt=1741306406763&flash=0&frm&u_tz=-300&u_his=10&u_h=1080&u_w=1920&u_ah=1080&u_aw=1920&u_cd=24&bc=31&bih=467&biw=1516&brdim=335%2C8%2C335%2C8%2C1920%2C0%2C1532%2C1034%2C1516%2C467&vis=1&wgl=true&ca_type=image
+X-Origin: https://music.youtube.com
+Origin: https://music.youtube.com
 DNT: 1
 Sec-Fetch-Dest: empty
-Sec-Fetch-Mode: cors
+Sec-Fetch-Mode: same-origin
 Sec-Fetch-Site: same-origin
+Authorization: SAPISIDHASH 1741308860_0ba4d3cfabf965a74b3af1b6e49a7ed36855bb49_u SAPISID1PHASH 1741308860_0ba4d3cfabf965a74b3af1b6e49a7ed36855bb49_u SAPISID3PHASH 1741308860_0ba4d3cfabf965a74b3af1b6e49a7ed36855bb49_u
 Connection: keep-alive
 Alt-Used: music.youtube.com
-Cookie: VISITOR_INFO1_LIVE=HJIh1-cPNHE; VISITOR_PRIVACY_METADATA=CgJVUxIEGgAgTw%3D%3D; __Secure-ROLLOUT_TOKEN=CIPWnI3e6ou0ZRC816i9moiLAxjH8_63tPaLAw%3D%3D; PREF=tz=America.New_York&f4=4000000&f6=40000000&f7=100&f5=30000&repeat=NONE; __Secure-1PSIDTS=sidts-CjIBEJ3XV9m7UIED_iB7LVf33dI_LPhsR3HQhOvpbwbL4a1hgbldToIdLCYFnm5VuC2kFBAA; __Secure-3PSIDTS=sidts-CjIBEJ3XV9m7UIED_iB7LVf33dI_LPhsR3HQhOvpbwbL4a1hgbldToIdLCYFnm5VuC2kFBAA; HSID=Ae78CPbiJo3Ihhhda; SSID=AB2RdaOFSrfztr2_o; APISID=xC4nCQUDzW2F_R2-/Ay0ZInEoC45tTQ9JO; SAPISID=JmOZFRjvbzIzf50O/AXRETS8nElZvTeByg; __Secure-1PAPISID=JmOZFRjvbzIzf50O/AXRETS8nElZvTeByg; __Secure-3PAPISID=JmOZFRjvbzIzf50O/AXRETS8nElZvTeByg; SID=g.a000uAi1iyA10czy52rqvF1FWxmQkbPFC39e35MQFBrKz8S65BcKW3qy3FCqLZSZ2TTeJnQl_QACgYKAXcSARISFQHGX2MiJ22craSA4FlIyM674jx6LBoVAUF8yKpJMI7k0HsF5l85Pw4bft930076; __Secure-1PSID=g.a000uAi1iyA10czy52rqvF1FWxmQkbPFC39e35MQFBrKz8S65BcKocZeY6YEOx3ksXKRTLkk2AACgYKAV4SARISFQHGX2MiEJcIcwM2b6x8plHPiWv1bBoVAUF8yKpDJKwWjk3kLd_ksznONBKa0076; __Secure-3PSID=g.a000uAi1iyA10czy52rqvF1FWxmQkbPFC39e35MQFBrKz8S65BcK0rStonmy-k7m9acoRJok1QACgYKAXISARISFQHGX2MiqnsLcJ_oDiLdmrV1e7xXDxoVAUF8yKo_HAsshSkBwlAmO2eMGMWk0076; LOGIN_INFO=AFmmF2swRgIhAMfcX0Vu6tDn8nek1Eyp6Ny2ONP_xVJJT-0uSKGr_BNMAiEA6jccuMzKqeXQ3Kj3ShU2o-rKqtn3zF-Z2OQAGA71uKI:QUQ3MjNmd25qWVUwQWFtcGtBeHNpQ0EzWnMxVEdYOHVkejNFTjNJZDM3VXg1UGtOYzJoQ1BRZ1M4bEZCaEZ6LVZkZnp2S0FiWThuYjZTUTRvcW81OFh5d2tBUHAteklDakZneFdTdVpkZzhCVHpvMWptRnBGN2NXUW83TWVNTXJFVjRBREppSmV0ZG1seXJBZ3JpY0RyUG42Yk9nYzhCVDZn; SIDCC=AKEyXzV1WFdsFhrAzk-Is-8GnNQUudrUSsdPcWbBlM_eMrB0XxXARSDjCxsP3i035KQfbbNS3A; __Secure-1PSIDCC=AKEyXzVlN87oUvBLrdoiVmb1tYSBhYIBX08pGFGrzeVZdLxN8RvrDRHPfTcOuX7fxmzv8P0d9qw; __Secure-3PSIDCC=AKEyXzX2FGmMW98wmYDbK_BHF_zkjAaX0-ymHYvNbbJ_ANXoPqBFQnbAmE94X9Fn8taceKwnl2M; YSC=kfCseQLTT74; _gcl_au=1.1.561134473.1741297003; CONSISTENCY=AKreu9tGW3BBJC5d3GbQwNZlBcSgMa2Y6Kx7eU7yZtitJZfvori6l2fXtZPgMUMXErt_2kh8WVqb5NjFD-z-LcH9aHkiavfd2BE128rGayiGlgzutebf2RZHUvr2Dc9DZtGrPXtLyEsJf1-1fs0VM2O-
+Cookie: VISITOR_INFO1_LIVE=HJIh1-cPNHE; VISITOR_PRIVACY_METADATA=CgJVUxIEGgAgTw%3D%3D; __Secure-ROLLOUT_TOKEN=CIPWnI3e6ou0ZRC816i9moiLAxjH8_63tPaLAw%3D%3D; PREF=tz=America.New_York&f4=4000000&f6=40000000&f7=100&f5=30000&repeat=NONE; __Secure-1PSIDTS=sidts-CjIBEJ3XV9m7UIED_iB7LVf33dI_LPhsR3HQhOvpbwbL4a1hgbldToIdLCYFnm5VuC2kFBAA; __Secure-3PSIDTS=sidts-CjIBEJ3XV9m7UIED_iB7LVf33dI_LPhsR3HQhOvpbwbL4a1hgbldToIdLCYFnm5VuC2kFBAA; HSID=Ae78CPbiJo3Ihhhda; SSID=AB2RdaOFSrfztr2_o; APISID=xC4nCQUDzW2F_R2-/Ay0ZInEoC45tTQ9JO; SAPISID=JmOZFRjvbzIzf50O/AXRETS8nElZvTeByg; __Secure-1PAPISID=JmOZFRjvbzIzf50O/AXRETS8nElZvTeByg; __Secure-3PAPISID=JmOZFRjvbzIzf50O/AXRETS8nElZvTeByg; SID=g.a000uAi1iyA10czy52rqvF1FWxmQkbPFC39e35MQFBrKz8S65BcKW3qy3FCqLZSZ2TTeJnQl_QACgYKAXcSARISFQHGX2MiJ22craSA4FlIyM674jx6LBoVAUF8yKpJMI7k0HsF5l85Pw4bft930076; __Secure-1PSID=g.a000uAi1iyA10czy52rqvF1FWxmQkbPFC39e35MQFBrKz8S65BcKocZeY6YEOx3ksXKRTLkk2AACgYKAV4SARISFQHGX2MiEJcIcwM2b6x8plHPiWv1bBoVAUF8yKpDJKwWjk3kLd_ksznONBKa0076; __Secure-3PSID=g.a000uAi1iyA10czy52rqvF1FWxmQkbPFC39e35MQFBrKz8S65BcK0rStonmy-k7m9acoRJok1QACgYKAXISARISFQHGX2MiqnsLcJ_oDiLdmrV1e7xXDxoVAUF8yKo_HAsshSkBwlAmO2eMGMWk0076; LOGIN_INFO=AFmmF2swRgIhAMfcX0Vu6tDn8nek1Eyp6Ny2ONP_xVJJT-0uSKGr_BNMAiEA6jccuMzKqeXQ3Kj3ShU2o-rKqtn3zF-Z2OQAGA71uKI:QUQ3MjNmd25qWVUwQWFtcGtBeHNpQ0EzWnMxVEdYOHVkejNFTjNJZDM3VXg1UGtOYzJoQ1BRZ1M4bEZCaEZ6LVZkZnp2S0FiWThuYjZTUTRvcW81OFh5d2tBUHAteklDakZneFdTdVpkZzhCVHpvMWptRnBGN2NXUW83TWVNTXJFVjRBREppSmV0ZG1seXJBZ3JpY0RyUG42Yk9nYzhCVDZn; SIDCC=AKEyXzVcvJZ_H7Y4-OEo3msLIw9QecI89NBfnfoSM1657Do56r1fnYKeBdvxtbE0TFfRiLtDkg; __Secure-1PSIDCC=AKEyXzUb3ginYE_ac02ZxrNhuVk3XmOIuF5bj8ZzCKyDQ9U6CSLLXcV9Yo1tgwjjlpXIpGx2GJM; __Secure-3PSIDCC=AKEyXzWlD04eKjEi4MijnJtQ_P8_G2sJ2DFnRZXjfaNMcUUFHR1fqvFgXRfj3xQlEPGwPAJo6M8; YSC=kfCseQLTT74; _gcl_au=1.1.561134473.1741297003
+Priority: u=4
 TE: trailers
